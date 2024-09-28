@@ -1,8 +1,8 @@
 /*!
-* Start Bootstrap - Bare v5.0.9 (https://startbootstrap.com/template/bare)
-* Copyright 2013-2024 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
-*/
+ * Start Bootstrap - Bare v5.0.9 (https://startbootstrap.com/template/bare)
+ * Copyright 2013-2024 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
+ */
 class tableVideos {
     constructor() {
         this.nav = document.querySelector("[data-navigation]");
@@ -16,7 +16,7 @@ class tableVideos {
         this.valueInputElement = "";
 
         this.apiKey = "e3bd5693";
-        this.apiUrl = "http://www.omdbapi.com/";
+        this.apiUrl = "https://www.omdbapi.com/";
 
         this.init();
     }
