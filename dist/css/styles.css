@@ -10824,3 +10824,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.thumbnail {
+  width: 5rem;
+  height: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

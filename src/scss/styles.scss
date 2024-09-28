@@ -1,5 +1,8 @@
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
-// This template has no custom styling
-// Insert any custom SCSS here!
+.thumbnail{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
